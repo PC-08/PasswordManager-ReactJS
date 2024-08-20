@@ -1,0 +1,311 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.stars {
+  width: 80px;
+}
+
+.bg {
+  padding: 30px;
+  background-image: linear-gradient(#9ba9eb, #c3caea);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+}
+
+.app-logo-img {
+  width: 200px;
+  align-self: flex-start;
+  margin: 20px;
+}
+
+.card-1 {
+  background-color: #5763a5;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  width: 1000px;
+  margin-bottom: 40px;
+}
+
+.card-1-img {
+  width: 400px;
+}
+
+.form-container {
+  background-color: #454f84;
+  padding: 30px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.form-head {
+  font-size: 20px;
+  color: #f8fafc;
+}
+
+.form-img {
+  width: 40px;
+  padding: 10px;
+}
+
+.form-input-container {
+  display: flex;
+  background-color: #f8fafc;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.input-form {
+  border-radius: 6px;
+  border: 0;
+  font-size: 14px;
+  padding: 15px;
+  font-weight: bold;
+  outline: none;
+  width: 250px;
+}
+
+.SubBtn {
+  background-color: #0b69ff;
+  font-weight: bold;
+  padding: 10px;
+  color: #f8fafc;
+  border: 0;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 100px;
+}
+
+.bt-container {
+  text-align: right;
+}
+
+.card-2 {
+  background-color: #5763a5;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  border-radius: 10px;
+  width: 1000px;
+}
+
+.card-2-sec-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-2-head {
+  color: #f8fafc;
+  font-size: 22px;
+}
+
+.card-2-head-span {
+  border: 2px solid #94a3b8;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 6px;
+  background-color: white;
+  padding: 5px;
+}
+
+.search-container-img {
+  width: 35px;
+}
+
+.search-input {
+  outline: none;
+  border: 0;
+  font-weight: bold;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.line {
+  color: #b6c3ca;
+  width: 900px;
+  margin: 15px;
+}
+
+.check-box-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.checkBox-input {
+  width: 20px;
+  height: 20px;
+}
+
+.no-p-Img {
+  width: 350px;
+}
+
+.empty-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty-Note {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ul {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #b6c3ca;
+  padding: 10px;
+  border-radius: 8px;
+
+  margin: 10px;
+}
+
+.li-profile {
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  background-color: #0b69ff;
+  border: 2px solid #b6c3ca;
+  border-radius: 50px;
+  font-size: 16px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.li-box {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.li-para {
+  color: white;
+  font-weight: 500;
+}
+
+.li-btn {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.li-dlt-icon {
+  width: 30px;
+}
+
+.orange {
+  background-color: #f59e0b;
+}
+
+.green {
+  background-color: #10b981;
+}
+
+.darkorange {
+  background-color: #f97316;
+}
+
+.clayn {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+@media (max-width: 576px) {
+  .card-1 {
+    flex-direction: column;
+    width: 350px;
+    padding: 10px;
+  }
+
+  .card-1-img {
+    width: 200px;
+    margin: 10px;
+    order: -1;
+  }
+
+  .bg {
+    width: 100vw;
+    padding: 10px;
+    padding-bottom: 50px;
+  }
+
+  .form-container {
+    width: 300px;
+  }
+
+  .card-2 {
+    flex-direction: column;
+    width: 350px;
+    padding: 10px;
+  }
+
+  .line {
+    width: 280px;
+  }
+
+  .card-2-head {
+    font-size: 14px;
+  }
+
+  .search-container {
+    width: 150px;
+  }
+
+  .search-input {
+    width: 100px;
+  }
+
+  .search-container-img {
+    width: 25px;
+  }
+
+  .li {
+    width: 300px;
+  }
+
+  .ul {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+  }
+}
