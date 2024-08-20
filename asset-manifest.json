@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/PasswordManager-ReactJS/static/css/main.e6ca6922.chunk.css",
+    "main.js": "/PasswordManager-ReactJS/static/js/main.1ca8dd97.chunk.js",
+    "main.js.map": "/PasswordManager-ReactJS/static/js/main.1ca8dd97.chunk.js.map",
+    "runtime-main.js": "/PasswordManager-ReactJS/static/js/runtime-main.89e8e142.js",
+    "runtime-main.js.map": "/PasswordManager-ReactJS/static/js/runtime-main.89e8e142.js.map",
+    "static/js/2.dd8d2a08.chunk.js": "/PasswordManager-ReactJS/static/js/2.dd8d2a08.chunk.js",
+    "static/js/2.dd8d2a08.chunk.js.map": "/PasswordManager-ReactJS/static/js/2.dd8d2a08.chunk.js.map",
+    "index.html": "/PasswordManager-ReactJS/index.html",
+    "static/css/main.e6ca6922.chunk.css.map": "/PasswordManager-ReactJS/static/css/main.e6ca6922.chunk.css.map",
+    "static/js/2.dd8d2a08.chunk.js.LICENSE.txt": "/PasswordManager-ReactJS/static/js/2.dd8d2a08.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89e8e142.js",
+    "static/js/2.dd8d2a08.chunk.js",
+    "static/css/main.e6ca6922.chunk.css",
+    "static/js/main.1ca8dd97.chunk.js"
+  ]
+}
